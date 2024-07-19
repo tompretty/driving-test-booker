@@ -27,6 +27,7 @@
 		"lint:packages": "pnpm dedupe --check",
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
 		"prepare": "husky",
+		"start": "node --import ./ts-node.register.mjs ./src/index.ts",
 		"test": "vitest",
 		"tsc": "tsc"
 	},
@@ -63,6 +64,7 @@
 		"prettier-plugin-sh": "^0.14.0",
 		"release-it": "^17.6.0",
 		"sentences-per-line": "^0.2.1",
+		"ts-node": "^10.9.2",
 		"tsup": "^8.2.0",
 		"typescript": "^5.5.3",
 		"typescript-eslint": "^7.16.1",
