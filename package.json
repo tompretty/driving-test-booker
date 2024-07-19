@@ -8,6 +8,7 @@
 	},
 	"license": "MIT",
 	"author": {
+		"name": "Tom Pretty",
 		"email": "tompretty2@gmail.com"
 	},
 	"type": "module",
